@@ -53,3 +53,24 @@ body {
     text-decoration: none;
     font-size:24px ;
 }
+
+/* second section area */
+
+.section-facilites {
+    display: flex;
+    justify-content: center;
+}
+
+
+.facilities-heading {
+    text-align: center;
+    color: #35cc00;
+    font-size: 64px;
+}
+
+
+.facilities-text {
+    text-align: center;
+    color: #292726;
+    font-size:16px;
+}
