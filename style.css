@@ -59,6 +59,7 @@ body {
 .section-facilites {
     display: flex;
     justify-content: center;
+    padding: 80px 0;
 }
 
 
@@ -66,11 +67,53 @@ body {
     text-align: center;
     color: #35cc00;
     font-size: 64px;
+    margin:0;
 }
-
 
 .facilities-text {
     text-align: center;
     color: #292726;
     font-size:16px;
+}
+
+/* Third section area */
+
+.third_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-one {    
+    width: 450px;
+    height: auto;
+    border: 2px solid none;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-one:hover {
+    border: 1px solid black;
+    margin-top: -10px;
+}
+
+.image-box {
+    width: 150px;
+    height: auto;
+
+}
+
+------------------
+
+.card {
+    width: 300px;
+    height: auto;
+    border: 2px solid red;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
 }
